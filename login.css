@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(black, aqua);
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+main{
+    background-image: linear-gradient(yellow, black);
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+form{
+    box-shadow: 0px 10px 10px black;
+    width:100%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    background-color: orange;
+}
+input{
+    padding: 20px;
+}
+img,input,a,button{
+    display: block;
+}
+img{
+    width: 68%;
+    height: 100px;
+    margin: auto;
+    mix-blend-mode: multiply;
+}
+input{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 100%;
+    margin-top: 5px;
+    padding-left: 5px;
+    /* background-color: ghostwhite; */
+    height: 35px;
+}
+button{
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border-radius: 8px;
+    background-color: #4cb5f9;
+    color: white;
+    border: none;
+}
+hr{
+    margin-top: 40px;
+    color: black;
+}
+div{
+    position: relative;
+    /* display: flex; */
+    height: 30px;
+    /* justify-content: center; */
+}
+h4{
+    position: absolute;
+    top: -32px;
+    left: 172px;
+    background-color: white;
+    padding: 0 10px 0 10px;
+}
+
+a{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#uname, #upass, #btn{
+    color: red;
+}
+#show{
+    position: relative;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    position: absolute;
+    top: 35%;
+    left: 88%;
+}
